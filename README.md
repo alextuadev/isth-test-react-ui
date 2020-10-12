@@ -16,7 +16,7 @@ Show us what you can do in 6 hours top!.
 To give you an idea, here what your app could look like:
 
 
-![app](https://github.com/iMrLopez/isth-test-react/blob/master/docs/ui_example.png)
+![app](https://github.com/iMrLopez/isth-test-react-ui/blob/main/docs/ui_example.png)
 
 ## Installation
 
