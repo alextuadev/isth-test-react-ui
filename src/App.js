@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css'
 import ActionHeader from './components/ActionHeader/ActionHeader';
 import Header from './components/Header/Header';
-import MainContainer from './containers/MainContainer';
+import MainContainer from './containers/MainContainer/MainContainer';
 
 
 function App() {

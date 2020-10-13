@@ -14,7 +14,7 @@ function ActionHeader() {
   return (
     <div className="actionFilter">
       <Grid container>
-        <Grid item xs={4}>
+        <Grid item xs={7} md={6}>
           <form autoComplete="off" className='flex-form'>
             <TextField label="Item number o UPC" />
             <Button

@@ -19,7 +19,7 @@ function Header() {
   return (
     <div className="header">
       <Grid container>
-        <Grid item xs={4}>
+        <Grid item xs={7} md={5} lg={4}>
           <Paper>
             <Tabs
               value={value}
@@ -36,7 +36,7 @@ function Header() {
         </Grid>
 
         <Grid
-          item xs={8}>
+          item xs={5} md={7} lg={8}>
           <div className="container-profile">
             <span color="primary">Nombre de usuario</span>
             <a href="#" > <NotificationsIcon color="primary" /></a>
