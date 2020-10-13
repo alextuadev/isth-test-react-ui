@@ -1,0 +1,18 @@
+.container-profile {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0;
+    align-items: center;
+    height: 50px;
+    padding-right: 20px;
+}
+
+.container-profile>a,
+.container-profile>span {
+    padding: 0 10px 0 0;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.actionFilter {
+    margin-top: 20px;
+}
+
+.flex-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
