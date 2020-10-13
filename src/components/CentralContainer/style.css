@@ -11,3 +11,11 @@
 .container-profile>span {
     padding: 0 10px 0 0;
 }
+
+.central-container {
+    padding: 0 20px;
+}
+
+.mt2 {
+    margin-top: 20px !important;
+}

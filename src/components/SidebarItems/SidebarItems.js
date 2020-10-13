@@ -16,6 +16,10 @@ const useStyles = makeStyles({
   },
   content: {
     padding: 10
+  },
+  first: {
+    borderLeftWidth: 5,
+    borderLeftColor: '#3f51b5'
   }
 });
 
@@ -57,16 +61,17 @@ function SidebarItems() {
     }
   ]
 
-  const renderRow = data.map((element) => {
+  const renderRow = data.map((element, index) => {
+
     return (
-      <Card className={classes.root} variant="outlined">
+      <Card className={[classes.root, (index == 0 && classes.first)]} variant="outlined">
         <CardContent className={classes.content} >
           <div>
             {element.id} | {element.status} | {element.iva}
           </div>
           <div>
             <p className="description">{element.description} <span>{element.price}{element.currency}</span></p>
-            
+
           </div>
         </CardContent>
       </Card>
